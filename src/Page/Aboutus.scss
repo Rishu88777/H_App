@@ -1,0 +1,72 @@
+
+.about-us {
+    background-color: #c8e8e9;
+    margin: 30px 5% 0 5%;
+    border-radius: 15px;
+    padding: 40px 0;
+  
+  
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .pic {
+    max-width: 400px;
+    border-radius: 8px;
+  }
+  
+  .text {
+    max-width: 500px;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .data {
+    margin-top: 10px;
+  }
+  
+  .hire {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hire:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .about {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .pic {
+      margin-bottom: 20px;
+    }
+  }
+  @media (max-width: 480px) {
+    img{
+      width: 80vw;
+    }
+  }
+}  

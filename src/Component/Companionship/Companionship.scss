@@ -1,0 +1,12 @@
+.compaionship{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(auto-fit, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.compaintxt{
+    text-align: center;
+    color: orange;
+    text-decoration: underline;
+}

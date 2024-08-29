@@ -1,0 +1,10 @@
+
+
+.monitoring {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+    gap: 50px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,13 @@
+html{
+  background-color: #f3f4f4;
+  /* background: #c8e8e9; */
+}
+/* App.css or your custom CSS file */
+
+.navbar {
+  position:fixed;
+  width: 100%;
+  margin-bottom: 40px !important;
+}
+
+/* Add other styles as needed */
